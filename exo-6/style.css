@@ -1,0 +1,66 @@
+body {
+    width: 100%;
+    height: auto;
+}
+
+#conteneur {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.element-vert {
+    background-color: mediumseagreen;
+    width: 70%;
+    height: 75px;
+}
+
+.element-bleu {
+    background-color: steelblue;
+    width: 30%;
+    height: 75px;
+}
+
+.element-rouge {
+    background-color: tomato;
+    width: 30%;
+    height: 150px;
+}
+
+.element-orange {
+    background-color: coral;
+    width: 35%;
+    height: 75px;
+}
+
+.element-gris {
+    background-color: grey;
+    width: 35%;
+    height: 75px;
+}
+
+.element-jaune {
+    background-color: yellow;
+    width: 33.33%;
+    height: 75px;
+}
+
+.element-vert_eau {
+    background-color: lightseagreen;
+    width: 33.33%;
+    height: 75px;
+}
+
+.element-orange_fonce {
+    background-color: orangered;
+    width: 33.33%;
+    height: 75px;
+}
+
+.element-gris_bleu {
+    background-color: darkslateblue;
+    width: 100%;
+    height: 75px;
+}
