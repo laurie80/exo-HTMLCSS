@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercices 7 HTML/CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form method="POST">
+        <fieldset id="identity">
+            <legend class="identity">Votre Identité</legend>
+            <ol>
+                <li><label for="lname">Nom :</label>
+                    <input id="lname" name="lname" type="text" placeholder="ex: Dupont" /></li>
+                <li><label for="fname">Prénom :</label>
+                    <input id="fname" name="fname" type="text" placeholder="ex: Julie"></li>
+                <li><label for="mail">Adresse mail :</label>
+                    <input id="mail" type="email" placeholder="ex: lxd001@hotmail.fr"></li>
+            </ol>
+        </fieldset>
+
+        <fieldset id="shipping">
+            <legend class="shipping">Adresse de livraison</legend>
+            <ol>
+                <li><label for="address">Adresse :</label>
+                    <textarea name="address" id="address" cols="25" rows="10"
+                        placeholder="ex: 8 rue du Château"></textarea></li>
+                <li><label for="cp">Code Postal :</label>
+                    <input id="cp" name="cp" type="text" placeholder="ex: 75000"></li>
+                <li><label for="city">Ville :</label>
+                    <input id="city" name="city" type="text" placeholder="ex: Paris"></li>
+            </ol>
+        </fieldset>
+
+        <fieldset id="payment">
+            <legend class="payment">Informations de réglement</legend>
+            <ol>
+                <li>
+                    <p>Type de carte bancaire :</p>
+                </li>
+                <li><input id="VISA" name="paymenttype" type="radio" value="VISA">
+                    <label for="VISA">VISA</label></li>
+                <li><input id="Mastercard" name="paymenttype" type="radio" value="Mastercard">
+                    <label for="Mastercard">Mastercard</label></li>
+                <li><label for="cardnumber">Numéro de carte :</label>
+                    <input type="text" placeholder="ex: 001002003"></li>
+                <li><label for="securecode">Code de sécurité :</label>
+                    <input id="securecode" name="securecode" type="text" placeholder="ex: 333"></li>
+                <li><label for="holdername">Nom du titulaire :</label>
+                    <input id="holdername" name="holdername" type="text" placeholder="ex: Dupont Julie"></li>
+            </ol>
+        </fieldset>
+
+        <input type="submit" value="J'achète !" />
+        
+    </form>
+</body>
+
+</html>
