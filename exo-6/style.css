@@ -1,85 +1,80 @@
-.conteneur {
+html,
+body {
+    height: 100%;
+}
+
+#firstRow {
     display: flex;
-    width: 100%;
-    height: 75px;
     flex-wrap: wrap;
-    align-content: flex-start;
-    align-self: flex-start;
+    height: 10%;
 }
 
-.conteneur_2 {
+#elementVert {
+    width: 80%;
+    height: 100%;
+    background-color: green;
+}
+
+#elementBleu {
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+}
+
+#secondRow {
     display: flex;
-    width: 100%;
-    height: 150px;
-    justify-content: flex-start;
-    align-self: center;
+    flex-wrap: wrap;
+    height: 20%;
 }
 
-.conteneur_3 {
+#rectangleRouge {
+    width: 34%;
+    background-color: red;
+}
+
+#others {
     display: flex;
-    width: 100%;
-    height: 75px;
-    justify-content: flex-end;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 66%;
 }
 
-.conteneur_4 {
-    display: flex;
-    background-color: darkblue;
-    width: 100%;
-    height: 75px; 
-    align-self: flex-end;
-}
-.element-vert {
-    background-color: mediumseagreen;
-    width: 70%;
-    height: 75px;
+#rectangleOrangeClair {
+    width: 50%;
+    height: 50%;
+    background-color: orange;
 }
 
-.element-bleu {
-    background-color: steelblue;
-    width: 30%;
-    height: 75px;
-}
-
-.element-rouge {
-    background-color: tomato;
-    width: 30%;
-    height: 150px;
-}
-
-.element-orange {
-    background-color: coral;
-    width: 35%;
-    height: 75px;
-}
-
-.element-gris {
+#rectangleGris {
+    width: 50%;
+    height: 50%;
     background-color: grey;
-    width: 35%;
-    height: 75px;
 }
 
-.element-jaune {
+#rectangleJaune {
+    width: 33%;
+    height: 50%;
     background-color: yellow;
-    width: 33.33%;
-    height: 75px;
 }
 
-.element-vert_eau {
-    background-color: lightseagreen;
-    width: 33.33%;
-    height: 75px;
+#rectangleBleuVert {
+    width: 34%;
+    height: 50%;
+    background-color: teal;
 }
 
-.element-orange_fonce {
-    background-color: orangered;
-    width: 33.33%;
-    height: 75px;
+#rectangleOrange {
+    width: 33%;
+    height: 50%;
+    background-color: orange;
 }
 
-.element-gris_bleu {
-    background-color: darkslateblue;
+#thirstRow {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30%;
+}
+
+#rectangleBleuGris {
     width: 100%;
-    height: 75px;
+    background-color: midnightblue;
 }
