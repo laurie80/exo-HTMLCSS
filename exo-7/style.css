@@ -1,0 +1,11 @@
+#identity, .identity {
+    background-color: blue;
+}
+
+#shipping, .shipping {
+    background-color: blueviolet;
+}
+
+#payment, .payment {
+    background-color: palevioletred;
+}
